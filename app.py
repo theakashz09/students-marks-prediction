@@ -20,4 +20,4 @@ if st.button("Predict Marks"):
     
     predictions = model.predict([[hours]])
     
-    st.success(f"Predicted Marks:{predictions[0]:.2f}")
+    st.success(f"Predicted Marks:{predictions[0]:}")
